@@ -20,7 +20,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--input-text",
-        default="Default input text",
+        default="",
         help="Input text to print.",
     )
     args, beam_args = parser.parse_known_args()
